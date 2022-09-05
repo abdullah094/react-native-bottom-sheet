@@ -1,8 +1,8 @@
 import { Dimensions, Platform } from 'react-native';
 import Animated, { Easing } from 'react-native-reanimated';
 
-const { height: WINDOW_HEIGHT, width: WINDOW_WIDTH } = Dimensions.get('window');
-const { height: SCREEN_HEIGHT, width: SCREEN_WIDTH } = Dimensions.get('screen');
+const { height: WINDOW_HEIGHT, width: WINDOW_WIDTH } = Dimensions.get('window');                       //	Size of the visible Application window.
+const { height: SCREEN_HEIGHT, width: SCREEN_WIDTH } = Dimensions.get('screen');                       //Size of the device's screen.
 
 enum GESTURE_SOURCE {
   UNDETERMINED = 0,
